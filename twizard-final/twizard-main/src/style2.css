@@ -1,0 +1,72 @@
+
+
+body{
+    text-align: center;
+    /*background-color: #fada5f;*/
+    background-image: linear-gradient(to right,#ffe874, #ffd332);
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+  
+  h1{
+    font-size: 250%;
+    text-align: center;
+    color: #c69f26;
+    text-shadow: 2px 2px black;
+    box-shadow: 8px 8px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+
+  }
+
+  Button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Lucida Console", "Courier New", monospace;
+    outline: none;
+    color: rgb(244, 244, 244);
+    background-color: #f3c50b;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px #89801f;
+  }
+  
+  Button:hover {background-color: #f3c50b;
+    box-shadow: 0 7px #89801f;
+    transform: translateY(-5px);
+  
+  }
+  
+  Button:active {
+    background-color: #58c215;
+    box-shadow: 0 2px rgb(0, 0, 0);
+    transform: translateY(3px);
+  }
+
+  p{
+    font-size: 120%;
+  }
+
+  p2{
+    font-size: 90%;
+  }
+
+.slider {
+    width: 50%;
+    height: 15px;
+    border-radius: 5px;  
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.4;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+
+  /* Mouse-over effects */
+.slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+  }
+  
